@@ -1,13 +1,34 @@
 body{
     margin: 0%;
     padding:0% ;
-    background-color: black;
+   
+   
+
+    /* background-color: black; */
+ 
+  
+
     
 }
 
+section{ 
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle at 50% 100%,#1C3879,
+    #607EAA,
+    #7F557D,
+    #FF6392,#CCFF66);
+    background-size: 200% 500%;
+    position:relative;
+    animation:change 10s ease-in-out infinite;
+    opacity: 65%;
+  
+    
+ }
+
 .container{
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+    color:black;
     font-weight: bold;
     /* position: absolute;
     top: 40%;
@@ -25,7 +46,24 @@ body{
  
   --animate-repeat:infinite;
 
-
-
 }
+@keyframes change{
+    0%{
+        background-position:0% 100% ;
+        
+    }
+
+    
+
+    50%{
+        background-position:100% 0% ;
+    }
+
+ 
+
+    100%{
+        background-position:0% 100% ;
+    }
+}
+
 
