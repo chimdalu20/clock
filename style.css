@@ -37,10 +37,11 @@ section{
 
     display: flex;
     justify-content: center;
-    transform: translate(-50%, -50%);
+    align-items: center;
+    /*transform: translate(-50%, -50%);*/
     position: absolute;
-    top:35%;
-    left:10% ;
+    /*top:35%;
+    left:10% ;*/
     font-size:10vw;
 
   --animate-duration:3s;
